@@ -1,4 +1,8 @@
-##### [Version 3.0.2](https://github.com/Codeinwp/hestia-pro/compare/v3.0.1...v3.0.2) (2020-06-25)
+##### [Version 3.0.3](https://github.com/Codeinwp/hestia/compare/v3.0.2...v3.0.3) (2020-07-09)
+
+- Removed onboarding from the free version
+
+##### [Version 3.0.2](https://github.com/Codeinwp/hestia/compare/v3.0.1...v3.0.2) (2020-06-25)
 
 - [Fix] Compatibility issues with PHP 7.4
 - [Fix] Layout of the attribute archive page
@@ -9,7 +13,7 @@
 - [Fix][Pro] Empty team member widget appearing on mobile
 - [Fix][Pro] Seamless add to cart mechanism for variable products
 
-##### [Version 3.0.1](https://github.com/Codeinwp/hestia-pro/compare/v3.0.0...v3.0.1) (2020-05-11)
+##### [Version 3.0.1](https://github.com/Codeinwp/hestia/compare/v3.0.0...v3.0.1) (2020-05-11)
 
 - [Fix] Missing Font Awesome icons
 - [Fix] Fatal error when using Yoast
@@ -18,7 +22,7 @@
 - [Fix][Pro] Check if attachment exists when swap images are used on the Shop page
 - [Fix][Pro] Seamless add to cart mechanism
 
-#### [Version 3.0.0](https://github.com/Codeinwp/hestia-pro/compare/v2.5.7...v3.0.0) (2020-04-28)
+#### [Version 3.0.0](https://github.com/Codeinwp/hestia/compare/v2.5.7...v3.0.0) (2020-04-28)
 
 - [Feat] [PRO] New Custom Layouts module
 - [Feat] [PRO] New options for Single Products ( Exclusive Products, Seamless Add to Cart )
@@ -351,7 +355,7 @@
 * Fixed layout issues for WooCommerce products and categories cards
 * Fixed layout issues for the Shop page on Internet Explorer 11
 * Redone the way sections can be overridden in child themes using this documentation:
-* https://docs.themeisle.com/article/918-how-to-override-sections-in-hestia-pro
+* https://docs.themeisle.com/article/918-how-to-override-sections-in-hestia
  
  ### v1.1.83 - 2018-07-06 
  **Changes:** 

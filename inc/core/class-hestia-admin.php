@@ -30,12 +30,6 @@ class Hestia_Admin {
 		 * About page instance
 		 */
 		$config = array(
-			'welcome_notice'      => array(
-				'type'            => 'custom',
-				'notice_class'    => 'ti-welcome-notice updated',
-				'dismiss_option'  => 'hestia_notice_dismissed',
-				'render_callback' => array( $this, 'welcome_notice_content' ),
-			),
 			'footer_messages'     => array(
 				'type'     => 'custom',
 				'messages' => array(
@@ -201,6 +195,15 @@ class Hestia_Admin {
 				),
 			),
 		);
+		if ( class_exists( 'Themeisle_Onboarding', false ) ) {
+			$config['welcome_notice']
+				= array(
+					'type'            => 'custom',
+					'notice_class'    => 'ti-welcome-notice updated',
+					'dismiss_option'  => 'hestia_notice_dismissed',
+					'render_callback' => array( $this, 'welcome_notice_content' ),
+				);
+		}
 		if ( class_exists( 'TI_About_Page', false ) ) {
 			TI_About_Page::init( apply_filters( 'hestia_about_page_array', $config ) );
 		}
@@ -503,6 +506,9 @@ class Hestia_Admin {
 	 * Render welcome notice content
 	 */
 	public function welcome_notice_content() {
+		if ( ! $this->should_show_welcome ) {
+			return;
+		}
 		$theme_args = wp_get_theme();
 		$name       = apply_filters( 'ti_wl_theme_name', $theme_args->__get( 'Name' ) );
 		$template   = $theme_args->get( 'Template' );
@@ -551,6 +557,7 @@ class Hestia_Admin {
 	 */
 	public function load_site_import() {
 		if ( class_exists( 'Themeisle_Onboarding', false ) ) {
+			$this->should_show_welcome = true;
 			Themeisle_Onboarding::instance();
 		}
 	}

@@ -18,6 +18,13 @@ Hestia is distributed under the terms of the GNU GPLv2 or later
 
 == Changelog ==
 
+##### [Version 3.0.3](https://github.com/Codeinwp/hestia-pro/compare/v3.0.2...v3.0.3) (2020-07-09)
+
+- Removed onboarding from the free version
+
+
+
+
 ##### [Version 3.0.2](https://github.com/Codeinwp/hestia-pro/compare/v3.0.1...v3.0.2) (2020-06-25)
 
 - [Fix] Compatibility issues with PHP 7.4

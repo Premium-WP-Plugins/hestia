@@ -3,7 +3,7 @@
 **Tags:** blog, custom-logo, portfolio, e-commerce, rtl-language-support, post-formats, grid-layout, one-column, two-columns, custom-background, custom-colors, custom-header, custom-menu, featured-image-header, featured-images, flexible-header, full-width-template, sticky-post, theme-options, threaded-comments, translation-ready, editor-style, footer-widgets, left-sidebar, right-sidebar, wide-blocks  
 **Requires at least:** 4.0  
 **Tested up to:** 5.0  
-**Stable tag:** 2.0.7  
+**Stable tag:** 3.0.3  
 **License:** GPLv2 or later  
 **License URI:** http://www.gnu.org/licenses/gpl-2.0.html  
 
@@ -17,6 +17,13 @@ Hestia WordPress theme, Copyright 2018 Themeisle
 Hestia is distributed under the terms of the GNU GPLv2 or later
 
 ## Changelog ##
+
+##### [Version 3.0.3](https://github.com/Codeinwp/hestia/compare/v3.0.2...v3.0.3) (2020-07-09)
+
+- Removed onboarding from the free version
+
+
+
 
 ##### [Version 3.0.2](https://github.com/Codeinwp/hestia/compare/v3.0.1...v3.0.2) (2020-06-25)
 
@@ -93,9 +100,9 @@ Hestia is distributed under the terms of the GNU GPLv2 or later
 
 * [Fix] Blog page Infinite Scroll compatibility with the Alternative layout
 * [Fix] Cover block text color not updating
-* [Fix][Hestia] Shop page Infinite Scroll compatibility with widgets filtering
-* [Fix][Hestia] Header layout selection for the Shop page
-* [Fix][Hestia] Slider arrows position on RTL
+* [Fix][Hestia Pro] Shop page Infinite Scroll compatibility with widgets filtering
+* [Fix][Hestia Pro] Header layout selection for the Shop page
+* [Fix][Hestia Pro] Slider arrows position on RTL
 
 
 ### 2.5.3 - 2019-09-13  ###
@@ -206,7 +213,7 @@ Hestia is distributed under the terms of the GNU GPLv2 or later
 
 ### 2.4.0 - 2019-03-21  ###
 
-* [Hestia] New White Label module
+* [Hestia Pro] New White Label module
 * Fixed issue with Big Title buttons shadow color
 * Fixed issue with Portfolio pop-up not opening in Microsoft Edge
 * Fixed issue with Blog options taking control over the custom post types archives pages
